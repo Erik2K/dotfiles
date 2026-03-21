@@ -30,11 +30,13 @@ paru -S --needed - < aur_pkglist.txt
 
 # 5. Deploy symlinks
 echo -e "\033[0;32m--- Deploying symlinks with Stow ---\033[0m"
-stow x11
 stow qtile
 stow nvim
 stow kitty
 stow rofi
+stow picom
+stow gtk
 stow -t ~ zsh
+stow -t ~ x11
 
 echo -e "\033[0;32m--- Búnker deployed successfully! ---\033[0m"

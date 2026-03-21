@@ -1,0 +1,2 @@
+#!/bin/sh
+xrandr --output eDP-1 --off --output HDMI-1-1 --mode 1920x1080 --rate 144

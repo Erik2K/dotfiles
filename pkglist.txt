@@ -20,6 +20,7 @@ lsd
 nano
 neovim
 networkmanager
+noto-fonts-emoji
 nvidia-open
 nvidia-utils
 openssh

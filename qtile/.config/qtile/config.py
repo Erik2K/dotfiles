@@ -82,6 +82,9 @@ keys = [
     # Lock screen
     Key([mod], "l", lazy.spawn("i3lock-fancy -p")),
 
+    #Screenshot
+    Key([mod, "shift"], "s", lazy.spawn("/home/erik/.config/rofi/screenshot.sh")),
+
     # Audio
     Key([], "XF86AudioPlay", lazy.spawn("playerctl -p chromium play-pause"), desc="Toggle Play/Pause"),
     Key([], "XF86AudioNext", lazy.spawn("playerctl -p chromium next"), desc="Siguiente canción"),

@@ -62,6 +62,7 @@ alias lla='lsd -lha --group-dirs=first'
 alias ls='lsd --group-dirs=first'
 alias cat='bat'
 alias dotsync='~/dotfiles/sync.sh'
+alias icat="kitty +kitten icat"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
@@ -129,3 +130,7 @@ function rmk(){
 
 # Finalize Powerlevel10k instant prompt. Should stay at the bottom of ~/.zshrc.
 (( ! ${+functions[p10k-instant-prompt-finalize]} )) || p10k-instant-prompt-finalize
+
+# GO Config
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin

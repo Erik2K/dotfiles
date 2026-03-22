@@ -2,6 +2,8 @@
 
 My personal **Arch Linux** configuration files, managed with [GNU Stow](https://www.gnu.org/software/stow/) for a modular and reproducible development environment.
 
+![Desktop preview](assets/preview.png)
+
 ![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=flat&logo=arch-linux&logoColor=white)
 ![Shell](https://img.shields.io/badge/Shell-82.3%25-89E051?style=flat&logo=gnu-bash&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-14.5%25-3572A5?style=flat&logo=python&logoColor=white)

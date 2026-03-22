@@ -4,8 +4,11 @@ bat
 bluez
 bluez-utils
 dialog
+docker
+docker-compose
 efibootmgr
 git
+go
 grub
 gst-plugin-pipewire
 intel-ucode
@@ -17,6 +20,7 @@ lightdm-webkit2-greeter
 linux
 linux-firmware
 lsd
+maim
 nano
 neovim
 networkmanager

@@ -2,6 +2,7 @@ bibata-cursor-theme-bin
 brave-bin
 i3lock-color-git
 i3lock-fancy-git
+neofetch
 paru
 paru-debug
 pear-desktop-bin

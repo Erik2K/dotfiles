@@ -13,6 +13,7 @@ grub
 gst-plugin-pipewire
 intel-ucode
 kitty
+lazygit
 libpulse
 lightdm
 lightdm-webkit-theme-litarvan

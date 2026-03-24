@@ -4,17 +4,17 @@ My personal **Arch Linux** configuration files, managed with [GNU Stow](https://
 
 ![Desktop preview](assets/preview.png)
 
-![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=flat&logo=arch-linux&logoColor=white)
-![Shell](https://img.shields.io/badge/Shell-82.3%25-89E051?style=flat&logo=gnu-bash&logoColor=white)
-![Python](https://img.shields.io/badge/Python-14.5%25-3572A5?style=flat&logo=python&logoColor=white)
-![Lua](https://img.shields.io/badge/Lua-3.2%25-000080?style=flat&logo=lua&logoColor=white)
+[![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=flat&logo=arch-linux&logoColor=white)](https://archlinux.org/)
+[![Qtile](https://img.shields.io/badge/Qtile-352464?style=flat&logo=qtile&logoColor=white)](https://qtile.org/)
+[![Neovim](https://img.shields.io/badge/Neovim-57A143?style=flat&logo=neovim&logoColor=white)](https://neovim.io/)
+[![unixporn](https://img.shields.io/badge/r%2Funixporn-inspired-orange?style=flat&logo=reddit&logoColor=white)](https://www.reddit.com/r/unixporn/)
 
 ---
 
 ## 🛠️ System Components
 
 | Role | Tool |
-|---|---|
+| --- | --- |
 | **Window Manager** | [Qtile](https://qtile.org/) |
 | **Terminal Emulator** | [Kitty](https://sw.kovidgoyal.net/kitty/) |
 | **Shell** | Zsh — Oh My Zsh + Powerlevel10k |
@@ -50,8 +50,8 @@ dotfiles/
 
 This setup uses a **dual-list system** to track all installed software:
 
-- `pkglist.txt` — Official Arch Linux repository packages.
-- `aur_pkglist.txt` — Community (AUR) packages, managed via [`paru`](https://github.com/Morganamilo/paru).
+* `pkglist.txt` — Official Arch Linux repository packages.
+* `aur_pkglist.txt` — Community (AUR) packages, managed via [`paru`](https://github.com/Morganamilo/paru).
 
 Both lists are kept up to date automatically by the `dotsync` workflow (see below).
 
@@ -92,7 +92,7 @@ qtile  nvim  kitty  rofi  picom  gtk  zsh  x11
 
 ## 🔄 Maintenance Workflow
 
-A custom `dotsync` alias keeps the local system and the remote repository in sync:
+A `dotsync` alias defined in `.zshrc` keeps the local system and the remote repository in sync:
 
 ```bash
 alias dotsync='~/dotfiles/sync.sh'
@@ -106,10 +106,6 @@ When executed, it automatically:
 
 ---
 
-## 📄 License
+## 🙏 Credits
 
-No license applied — personal configuration, feel free to take inspiration.
-
----
-
-<p align="center">Maintained by <strong>Erik</strong> · 2026</p>
+The Qtile status bar is based on [Cozytile](https://github.com/Darkkal44/Cozytile) by Darkkal44, adapted to fit this setup.

@@ -134,3 +134,7 @@ function rmk(){
 # GO Config
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
+
+# Editor
+export EDITOR='nvim'
+export VISUAL='nvim'

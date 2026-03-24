@@ -13,6 +13,7 @@ grub
 gst-plugin-pipewire
 intel-ucode
 kitty
+lazydocker
 lazygit
 libpulse
 lightdm
@@ -53,6 +54,7 @@ unzip
 wget
 wireplumber
 xclip
+xdg-utils
 xorg-server
 xorg-xinit
 xorg-xinput

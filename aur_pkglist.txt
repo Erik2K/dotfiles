@@ -1,5 +1,8 @@
 bibata-cursor-theme-bin
 brave-bin
+bruno-bin
+datagrip
+datagrip-jre
 i3lock-color-git
 i3lock-fancy-git
 neofetch

@@ -50,6 +50,7 @@ rofi-emoji
 sof-firmware
 stow
 tree
+ttf-hack-nerd
 unzip
 wget
 wireplumber

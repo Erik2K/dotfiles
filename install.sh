@@ -1,5 +1,7 @@
 #!/bin/bash
 
+DOTFILES_DIR="$HOME/dotfiles"
+
 # 1. Install base-devel, git and stow
 echo -e "\033[0;36m--- Installing base-devel, git and stow... ---\033[0m"
 sudo pacman -S --needed base-devel git stow
@@ -25,18 +27,17 @@ fi
 
 # 4. Install packages
 echo -e "\033[0;36m--- Installing all packages from lists... ---\033[0m"
-sudo pacman -S --needed - < pkglist.txt
-paru -S --needed - < aur_pkglist.txt
+sudo pacman -S --needed - < "$DOTFILES_DIR/pkglist.txt"
+paru -S --needed - < "$DOTFILES_DIR/aur_pkglist.txt"
 
 # 5. Deploy symlinks
 echo -e "\033[0;32m--- Deploying symlinks with Stow ---\033[0m"
-stow qtile
-stow nvim
-stow kitty
-stow rofi
-stow picom
-stow gtk
-stow -t ~ zsh
-stow -t ~ x11
+stow -d "$DOTFILES_DIR" qtile
+stow -d "$DOTFILES_DIR" nvim
+stow -d "$DOTFILES_DIR" kitty
+stow -d "$DOTFILES_DIR" rofi
+stow -d "$DOTFILES_DIR" picom
+stow -d "$DOTFILES_DIR" -t ~ zsh
+stow -d "$DOTFILES_DIR" -t ~ x11
 
 echo -e "\033[0;32m--- Búnker deployed successfully! ---\033[0m"

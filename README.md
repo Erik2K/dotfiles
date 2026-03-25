@@ -85,7 +85,7 @@ The script takes care of the full setup in order:
 6. **Symlinks** — deploys all config packages with `stow`:
 
 ```
-qtile  nvim  kitty  rofi  picom  gtk  zsh  x11
+qtile  nvim  kitty  rofi  picom  zsh  x11
 ```
 
 ---

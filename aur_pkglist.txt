@@ -5,6 +5,7 @@ datagrip
 datagrip-jre
 i3lock-color-git
 i3lock-fancy-git
+migrate-bin
 neofetch
 paru
 paru-debug
